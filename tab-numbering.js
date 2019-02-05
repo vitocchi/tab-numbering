@@ -14,7 +14,7 @@ var update = function(details) {
     newTitle = newTitle.substr(1)
   }
 
-  if(details.index < 8) {
+  if(details.index < 9) {
     newTitle = numbers[details.index] + newTitle
   }
   if(oldTitle !== newTitle) {
